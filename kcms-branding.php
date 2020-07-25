@@ -6,7 +6,7 @@ Description: Branding for KCMS sites.
 Version: 1.0
 Author: Romeo Covaci
 Author URI:
-License: MIT
+License: GNU
 */
 
 namespace Kubeecms\Kcms_Branding;
