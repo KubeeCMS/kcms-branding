@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: KCMS Branding
- * Plugin URI: https://github.com/kubeecms/kcms-branding/
- * Description: Branding for KCMS sites
+ * Plugin Name: WooCommerce Branding
+ * Plugin URI: http://woocommerce.com/products/branding/
+ * Description: Rebrand WooCommerce using your own brand name, colour scheme, and icon.
  * Version: 1.0.30
- * Author: KubeeCMS
- * Author URI: https://github.com/kubeecms/
+ * Author: WooCommerce
+ * Author URI: https://woocommerce.com/
  * Requires at least: 3.1
  * Tested up to: 5.6
  * Woo: 19003:b57eb3de77456cf73ef6f7456a03ea83
@@ -18,9 +18,6 @@
  *
  * @package woocommerce-branding
  */
-
-
-namespace Kubeecms\Kcms_Branding;
 
 // Plugin init hook.
 add_action( 'plugins_loaded', 'wc_branding_init' );
@@ -63,4 +60,3 @@ function wc_branding_woocommerce_deactivated() {
 	/* translators: %s: WooCommerce link */
 	echo '<div class="error"><p>' . sprintf( esc_html__( 'WooCommerce Branding requires %s to be installed and active.', 'wc_branding' ), '<a href="https://woocommerce.com/" target="_blank">WooCommerce</a>' ) . '</p></div>';
 }
-
