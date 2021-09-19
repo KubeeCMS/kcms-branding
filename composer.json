@@ -9,9 +9,9 @@
       "name": "Romeo Covaci"
     }
   ],
-  "type": "wordpress-muplugin",
+  "type": "wordpress-plugin",
   "require": {
-    "php": ">=8.0"
+    "php": ">=7.4"
   },
   "autoload": {
     "psr-4": { "Kubeecms\\Kcms-Branding\\": "classes/" }
